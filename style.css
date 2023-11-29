@@ -1,0 +1,75 @@
+/* Defaults */
+body, h1, h2, table {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+h1 {
+    font-size: 36px;
+    text-align: center;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+#stats h2,
+#hometowns h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #333;
+    color: white;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.hometown-card {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+#all-time-scorers {
+    margin-top: 40px;
+}
+
+#all-time-scorers ol {
+    list-style-type: decimal;
+    padding-left: 20px;
+}
+
+#all-time-scorers ol li {
+    margin-bottom: 10px;
+}
