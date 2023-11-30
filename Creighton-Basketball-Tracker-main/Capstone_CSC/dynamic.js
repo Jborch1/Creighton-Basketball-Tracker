@@ -199,5 +199,5 @@ window.onload = function () {
             .setLngLat(player.coordinates)
             .setPopup(new mapboxgl.Popup().setHTML(`<h3>${player.name}</h3>`))
             .addTo(map);
-    });
+});
 };
