@@ -1,5 +1,6 @@
 # Creighton-Basketball-Tracker
 This is a website that displays the stats of previous seasons at creighton university, all time scoring list, advancement into march madness depending on the season, a dynamic scheldule that encompasses the past seasons and previous scores, and an interactive mapbox showing starters hometowns.
+
 Link: https://cutracker.000webhostapp.com/
 
 # How to Run
