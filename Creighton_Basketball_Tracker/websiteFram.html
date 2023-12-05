@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blue Jay Basketball Tracker</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="dynamic.js" defer></script>
+    <script src="https://api.mapbox.com/mapbox-gl-js/v2.6.1/mapbox-gl.js"></script>
+    <link href="https://api.mapbox.com/mapbox-gl-js/v2.6.1/mapbox-gl.css" rel="stylesheet" />
+
+</head>
+
+<body>
+    <div id="container">
+        <h1>Blue Jay Basketball Tracker</h1>
+        <div class="dropdown my-menu"> 
+        <!-- Year selection dropdown -->
+        <label id="yearlabel" for="year">Select Year:</label>
+        <select id="year" onchange="updateTable()">
+            <option value="2023">2023-2024</option>
+            <option value="2022">2022-2023</option>
+            <option value="2021">2021-2022</option>
+            <!-- Add more years as needed -->
+        </select>
+        <div class="dropdown my-menu"> 
+        <br>
+        <!-- Header and player stats section -->
+        <section id="stats">
+            <h2>Player Stats</h2>
+            <table id="stats-table">
+                <!-- Table headers for Player Stats -->
+                <thead>
+                    <tr>
+                        <th>Player</th>
+                        <th>Points</th>
+                        <th>Assists</th>
+                        <th>Rebounds</th>
+                        <th>Games Played</th>
+                        <th>Hometown</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Player stats will be dynamically populated here -->
+                </tbody>
+            </table>
+        </section>
+
+        <!-- Winning Seasons section -->
+        <section id="winning-seasons">
+            <h2>March Madness Success</h2>
+            <ul id="winning-seasons-list">
+                <!-- Winning seasons data will be dynamically populated here -->
+            </ul>
+        </section>
+
+        <!-- All-Time Scorers section (unchanged) -->
+        <section id="all-time-scorers">
+            <h2>All-Time Scorers</h2>
+            <ol>
+                <!-- All-time scorers list will be dynamically populated here -->
+            </ol>
+        </section>
+
+        <br>
+
+        <!-- Schedule section -->
+        <section id="schedule">
+            <h2>Schedule</h2>
+            <table id="schedule-table">
+                <!-- Add rows for Creighton's remaining games -->
+                <thead>
+                    <tr>
+                        <th>Date</th>
+                        <th>Time</th>
+                        <th>Opponent</th>
+                        <th>Location</th>
+                        <th>Score</th>
+                        <th>Winner</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Add rows for Creighton's remaining games -->
+                    <tr>
+                        <td>March 1, 2023</td>
+                        <td>7:00 PM</td>
+                        <td>Opponent 1</td>
+                        <td>Home Arena</td>
+                        <td>88 - 97</td>
+                        <td>Creighton</td>
+                    </tr>
+                    <tr>
+                        <td>March 5, 2023</td>
+                        <td>3:30 PM</td>
+                        <td>Opponent 2</td>
+                        <td>Away Arena</td>
+                        <td>99 - 98</td>
+                        <td>Creighton</td>
+                    </tr>
+                    <!-- Add more rows as needed -->
+                </tbody>
+            </table>
+        </section>
+    </div>
+<br>
+ <!-- Mapbox section -->
+<section id="mapbox">
+    <!-- New white box inside mapbox -->
+    <div id="map-container">
+        <h2>Player Hometowns Map</h2>
+        <div id="map"></div>
+    </div>
+</section>
+
+    <!-- Parallax background -->
+    <div id="parallax-bg"></div>
+
+    <footer>
+        <p>&copy; 2023 Creighton University Basketball</p>
+    </footer>
+
+    <script src="script.js" defer></script>
+</body>
+
+</html>
