@@ -59,6 +59,7 @@ td {
 th {
     background-color: #2980b9;
     color: #fff;
+    cursor: pointer;
 }
 
 /* Winning Seasons section */

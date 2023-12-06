@@ -1,6 +1,8 @@
 // Sample player data (replace with actual data from your database)
 const players = [
     //2023-2024
+    { name: "", points: "", assists: "", rebounds: "", gamesPlayed: "", hometown: "", year: "2023" },
+
     { name: "Baylor Scheierman", points: 19.3, assists: 3.4, rebounds: 7.5, gamesPlayed: 8, hometown: "Aurora, NE", year: "2023" },
     { name: "Trey Alexander", points: 16.0, assists: 4.5, rebounds: 6.4, gamesPlayed: 8, hometown: "Oklahoma City, OK", year: "2023" },
     { name: "Ryan Kalkbrenner", points: 15.1, assists: 1.5, rebounds: 7.1, gamesPlayed: 8, hometown: "Omaha, Nebraska", year: "2023" },
@@ -16,6 +18,8 @@ const players = [
 
 
     //2022-2023
+    { name: "", points: "", assists: "", rebounds: "", gamesPlayed: "", hometown: "", year: "2022" },
+
     { name: "Ryan Kalkbrenner", points: 15.9, assists: 1.2, rebounds: 6.1, gamesPlayed: 34, hometown: "Omaha, Nebraska", year: "2022" },
     { name: "Trey Alexander", points: 13.6, assists: 2.6, rebounds: 4.2, gamesPlayed: 37, hometown: "Oklahoma City, OK", year: "2022" },
     { name: "Baylor Scheierman", points: 12.8, assists: 3.3, rebounds: 8.3, gamesPlayed: 37, hometown: "Aurora, NE", year: "2022" },
@@ -75,6 +79,8 @@ const allTimeScorers = [
 
 const scheduleData = {
     "2023": [
+        { date: "", time: "", opponent: "", location: "", score: "", winner: "" },
+
         { date: "November 7, 2022", time: "8:00 PM", opponent: "Florida A&M", location: "Home Arena", score: "105 - 54", winner: "Creighton" },
         { date: "November 11, 2022", time: "2:00 PM", opponent: "North Dakota State", location: "Home Arena", score: "89 - 60", winner: "Creighton" },
         { date: "November 14, 2022", time: "10:00 PM", opponent: "Iowa", location: "Home Arena", score: "92 - 84", winner: "Creighton" },
@@ -108,6 +114,8 @@ const scheduleData = {
         { date: "March 9, 2023", time: "TBD", opponent: "@ Villanova", location: "Villanova", score: "TBD", winner: "TBD" },
     ],
     "2022": [
+        { date: "", time: "", opponent: "", location: "", score: "", winner: "" },
+
         { date: "November 7, 2022", time: "7:30 PM", opponent: "St. Thomas Minnesota", location: "Home Arena", score: "72 - 60", winner: "Creighton" },
         { date: "November 10, 2022", time: "3:30 PM", opponent: "North Dakota", location: "Home Arena", score: "96 - 61", winner: "Creighton" },
         { date: "November 14, 2022", time: "5:30 PM", opponent: "Holy Cross", location: "Home Arena", score: "94 - 65", winner: "Creighton" },
